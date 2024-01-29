@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", (event) => {
+    console.log('script loaded')
 // Отримуємо посилання на елемент з числом
 const pagesNumberElement = document.querySelector('.pages-number');
 
