@@ -940,7 +940,7 @@ invSelection.initInvGroupSelection();
 let resultat = document.querySelector('#resultBtn');
 let resultDiv;
 resultat.addEventListener('click', function (e) {
-e.preventDefault();
+//e.preventDefault();
 // Викликаємо функцію оновлення для початкового значення
 zvanieUpdate();
 strUpdate();
