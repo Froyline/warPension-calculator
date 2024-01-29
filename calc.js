@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", (event) => {
 // Отримуємо посилання на елемент з числом
 const pagesNumberElement = document.querySelector('.pages-number');
 
@@ -978,4 +979,6 @@ let result = calculatePension();
     resultDiv = document.querySelector('.result.price')
     resultDiv.innerText = `${result} грн`
     console.log(`результат пенсії: ${result} грн`)
+});
+    
 });
